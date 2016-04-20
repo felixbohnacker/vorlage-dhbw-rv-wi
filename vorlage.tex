@@ -5,7 +5,7 @@
 \usepackage[hyperfootnotes=false, pdfborder={0 0 0}]{hyperref}                                   % pfd-Output [Fußnoten nicht verlinken]
 \usepackage[nottoc]{tocbibind}                                                % Inhaltsverzeichniserweiterung (Inhaltsverzeichnis selbst ausblenden)
 \usepackage{makeidx}                                                          % Index
-\usepackage[intoc]{nomencl}                                                   % Abkürzungsverzeichnis
+\usepackage[printonlyused]{acronym}                                                   % Abkürzungsverzeichnis
 \usepackage{fancyhdr}           	                                          % Fancy Header
 \usepackage{pdfpages}															% For PDF include in the Appendix
 \usepackage[round]{natbib}                                                    % Zitate (Erweiterung für Literaturverzeichnis)
@@ -124,7 +124,6 @@
 
 %%%%%%%%%%%%% Index, Abkürzungsverzeichnis und Glossar erstellen %%%%%%%%%%%%
 \makeindex
-\makenomenclature
 \makeglossaries
 
 % Festlegung der Art der Zitierung (Havardmethode: Abkuerzung Autor + Jahr) %
